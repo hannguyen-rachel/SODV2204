@@ -1,0 +1,17 @@
+h1{
+    color: tomato;
+    background-color: dodgerblue;
+}
+
+li{
+    color: darkslategray;
+}
+table {
+    border 4px grey
+}
+ul{
+    border-width: 4px;
+}
+li{
+    list-style-type: square;
+}
