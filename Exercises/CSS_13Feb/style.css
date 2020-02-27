@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#boxes1 {
+    border: 2px solid darkgrey;
+}
+
+.first {
+    color: green;
+    font-style: bold;
+    font-size: 1em;
+    background-color: greenyellow;
+    border-bottom: 1px dotted darkgreen;
+}
+
+.box2 {
+    font-size: 1em;
+    color: blue;
+}
+
+.second {
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightsalmon;
+    border-bottom: 1px dotted darksalmon;
+}
+
+.boxes2 {
+    border: 2px dotted darkblue;
+    display: grid;
+    /*grid-template-columns: 300px;
+    grid-template-rows: 200px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}

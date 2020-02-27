@@ -3,6 +3,21 @@ html {
 }
 /* This is a multi-line comment*/
 h1 {
-    color: red;
-    border-bottom: 20px solid blue;
+    color:orange ;
+    background-color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Verdana;
+    text-align: center;
+}
+p {
+    color: slategrey;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 3;
+}
+li {
+    list-style-type: square;
+     /*text-shadow: 3px 3px lightslategray;*/
 }
