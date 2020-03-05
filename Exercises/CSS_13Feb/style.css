@@ -36,3 +36,15 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+
+
+li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    display: block;
+    padding: 0 25px;
+}
