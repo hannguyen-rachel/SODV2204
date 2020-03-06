@@ -1,9 +1,10 @@
 html {
-    box-sizing: border-box;
+    
     background-color:  #4e4e4e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 200px 500px;
     padding: 0;
+    border-
 }
 
 head + body{
@@ -185,7 +186,7 @@ section > p{
 
 secton.chorus{
     margin: 0 0 0 2%;
-    
+
 }
 
 
