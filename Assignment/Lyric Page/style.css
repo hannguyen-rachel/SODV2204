@@ -179,9 +179,16 @@ section > p{
     width: 800px;
     border-left: 6px solid yellow;
     font-size: 35px;
-    margin: 0 0 70px 0;
-    padding: 40px 40px 0 40px;
+    margin: 0 0 3% 0;
+    padding: 2% 2% 0 2%;
 }
+
+secton.chorus{
+    margin: 0 0 0 2%;
+    
+}
+
+
 
 
 
