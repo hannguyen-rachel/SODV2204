@@ -1,0 +1,18 @@
+body{
+    background: url("images/photographer.JPEG") no-repeat center; 
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+header ul{
+    box-sizing: border-box;
+    background-color: #4e89c0;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    display: block;
+}

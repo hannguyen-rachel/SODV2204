@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Calibri;
+    background: url("images/photographer.jpg") no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+nav.top{
+    background: #e0600a;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: Agency FB;
+}
+
+.top ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.top ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+.top ul li a{
+    color: #e4e3e3;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Calibri;
+    padding: 7px 14px;
+    border-radius: 7px;
+}
+
+a.active,.top a:hover{
+    background: black;
+    transition: .5s;
+}
+
+.checkbar{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width:952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+nav.social{
+    position: fixed;
+    top: 30%;
+}
+
+.social ul{
+    list-style-type: none;
+    padding: 0;
+    transform: translatex(-270px);
+}
+
+.social ul li{
+    display: block;
+    margin: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+}
+
+.social ul li:hover{
+    transform: translatex(110px);
+}
+
+.social ul li.twitter:hover{
+    background-color: #55acee;
+}
+
+.social ul li.facebook:hover{
+    background-color: #3d5999;
+}
+
+.social ul li.instagram:hover{
+    background-color: #e4405f;
+}
+
+.social ul li.youtube:hover{
+    background-color: #d80202;
+}
+
+.social ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+.social ul li a i{
+    text-align: center;
+    margin-left: px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+
+.social ul li:hover i{
+    transform: rotate(360deg);
+    transition: all 1s;
+}
