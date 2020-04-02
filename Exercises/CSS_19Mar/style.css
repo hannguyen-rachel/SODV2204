@@ -8,13 +8,13 @@
 
 body{
     font-family: Calibri;
-    background: url("images/photographer.jpg") no-repeat center;
+    background: url("images/beer_tasting.jpg") no-repeat center;
     background-size: cover;
     height: calc(100vh - 80px);
 }
 
 nav.top{
-    background: #e0600a;
+    background: rgb(224, 96, 10, 0.7);
     height: 80px;
     width: 100%;
 }
@@ -90,7 +90,7 @@ nav.social{
 .social ul li{
     display: block;
     margin: 20px;
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color:rgba(231, 101, 14, 0.4);
     width: 300px;
     text-align: right;
     padding: 15px;
@@ -123,6 +123,7 @@ nav.social{
     text-decoration: none; 
     text-align: center;
     font-size: 22px;
+    justify-content: center;
 }
 
 .social ul li a i{

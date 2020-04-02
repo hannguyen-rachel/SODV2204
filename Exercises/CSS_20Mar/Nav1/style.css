@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button{
+    font-family: Agency FB;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{
+    background: url("images/Spring-Rolls.png") no-repeat center;
+    background-size: cover;
+    height: calc(140vh);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: rgba(40, 48, 7, 0.568);
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #f88c10;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+
+}
