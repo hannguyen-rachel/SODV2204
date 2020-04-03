@@ -114,45 +114,50 @@ nav.social{
     background-color: #d80202;
 }
 
-main{
-    box-sizing: border-box;
+.container{
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
-    margin: 0;
-    padding: 0;
-    height: 190px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 0;
+    height: 20vh;
 }
-.content{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 40px 40px 0 40px;
 
-    grid-row: auto;
-    grid-column: 2/4;
+.content{
+    background-color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    padding: 20px;
     grid-row: 1/1;
+    grid-column: 1/4;
 }
-.content h2{
+h2{
     color: rgb(209, 94, 28);
     text-transform: uppercase;
     font-size: 20px;
 }
 
-.image1{
+p{
+    font-size: 12px;
+    padding: 0;
     margin: 0;
-    padding: 40px 40px 0 40px;
+
+}
+.image1{
+    background: black;
+    margin: 20px;
+    padding: 20px;
     grid-row: 1/1;
-    grid-column: 1/4;
+    grid-column: 3/4;
+    ;
 }
 
 .image2{
-    margin: 0;
-    padding: 40px 40px 0 40px;
-    grid-row: 2/1;
-    grid-column: 1/4;
+    background: orange;
+    margin: 20px;
+    padding: 20px;
+    grid-row: 1/1;
+    grid-column: 4/4;
 }
 
 
