@@ -20,7 +20,7 @@ header{
     height: 100vh;
 }
 
-section.top_bar{
+div.top_bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@ a.active,.top a:hover{
 button{
     padding: 5px 10px;
     color: white    ;
-    background-color: orange    ;
+    background-color: rgb(0, 0, 0);
     border: none;
     border-radius: 40px;
     cursor: pointer;
