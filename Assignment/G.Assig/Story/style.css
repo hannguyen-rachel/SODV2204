@@ -8,6 +8,8 @@
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 170vh;
+    background-color: black;
 }
 
 header{
@@ -15,7 +17,7 @@ header{
     background-size: cover;
     position: relative;
     display: block;
-    height: 65vh;
+    height: 60vh;
 }
 
 div.top_bar{
@@ -143,27 +145,41 @@ nav.social{
 
 main{
     background: black;
-    height: 210vh;
+    height: 135vh;
+    text-align: center;
 }
 
 
 .story-page-content{
     font-family: Kristen ITC;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
     padding: 7%;
     margin: 0px;
 }
 
-p{
-    font-size: 15px;
+.content{
+    padding: 20px;
+    margin: 40px;
+}
+
+.content > p{
+
     color: grey;
-    padding: 12px;
-    margin: 0px;
+    font-size: 15px;
+    padding: 0px;
+    margin: 10px;
     text-align: center;
     letter-spacing: 0.5px;
     line-height: 30px;
 }
+
+.story-page-content>.logo{
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+
 
 
 
