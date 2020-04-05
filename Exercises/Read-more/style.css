@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: burlywood;
+}
+
+main{
+    padding: 20px;
+}
+
+.content:not(:last-child){
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 20px auto auto 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: Kristen ITC;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+    text-transform: capitalize;
+    outline: none;
+}
+
+
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+
+
+.story-page-content{
+    font-family: Kristen ITC;
+    text-align: center;
+    line-height: 30px;
+    padding: 7%;
+    margin: 0px;
+}
+
+.content{
+    padding: 20px;
+    margin: 40px;
+}
+
+.content > p{
+    color: black;
+    font-size: 15px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+
+
+.story-page-content>.logo{
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+
+
+
+
+.more{
+    display: none;
+}
+
+
+
+
+
+
+

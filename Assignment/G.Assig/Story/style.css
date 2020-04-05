@@ -9,7 +9,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 170vh;
-    background-color: black;
+    background-color: white;
 }
 
 header{
@@ -26,7 +26,7 @@ div.top_bar{
     align-items: center;
     padding: 30px;
     background: rgba(63, 63, 63, 0.3);
-    height: 60px;
+    height: 70px;
     width: 100%;
 }
 
@@ -58,7 +58,7 @@ img.logo{
 }
 
 a.active,.top a:hover{
-    background: rgb(209, 94, 28);;
+    background: rgb(209, 94, 28);
     transition: .5s;
 }
 
@@ -144,46 +144,108 @@ nav.social{
 }
 
 main{
-    background: black;
-    height: 135vh;
+    height: 120vh;
     text-align: center;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 70% 30%;
+    grid-gap: 15px;
+    height: 75vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
 .story-page-content{
+    background: white;
+    grid-column: 1/2;
+    grid-row: 1/3;
     font-family: Kristen ITC;
+    color: rgb(68, 68, 68);
+    font-size: 15px;
     text-align: center;
     line-height: 30px;
     padding: 7%;
     margin: 0px;
 }
 
-.content{
-    padding: 20px;
-    margin: 40px;
-}
-
-.content > p{
-
-    color: grey;
-    font-size: 15px;
+.image1{
+    background: url("images/beer_background_1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
     padding: 0px;
-    margin: 10px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    line-height: 30px;
+}
+.image2{
+    background: url("images/Dandy_Brewing_Company_5.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding: 0px;
 }
 
-.story-page-content>.logo{
+.image3{
+    background: url("images/Dandy_Brewing_Company_6_B&W.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 0px;
+}
+
+.story-page-content>.icon{
     cursor: pointer;
-    width: 70px;
+    width:100px;
     height: auto;
 }
 
 
+.read-more-button{
+    background: rgb(209, 94, 28);
+    width: 25%;
+    text-align: center;
+    margin: 20px auto auto 5px;
+    padding-left: 0 10px;
+    font-family: Kristen ITC;
+    font-size: 15px;
+    border: 1px solid;
+}
 
 
+.more{
+    display: none;
+}
 
 
+footer{
+    background: black;
+    height: 30vh;
+}
 
+section{
+    padding: 30px;
+    margin: 0;
+    color: rgb(165, 165, 165);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
 
+h4{
+    text-transform: uppercase;
+}
