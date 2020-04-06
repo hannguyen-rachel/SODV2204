@@ -191,6 +191,7 @@ footer{
 }
 
 .logo-squid{
+    cursor: pointer;
     width: 30px;
     height: auto;
 }
