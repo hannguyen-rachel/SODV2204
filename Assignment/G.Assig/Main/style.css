@@ -130,7 +130,7 @@ nav.social{
 
 
 main{
-    height: 100vh;
+    height: 110vh;
     text-align: center;
 }
 
@@ -144,7 +144,7 @@ main{
     text-align: center;
     line-height: 30px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .home-content{
@@ -181,8 +181,7 @@ h2{
 }
 
 .home-content>.icon{
-    cursor: pointer;
-    width: 90px;
+    width: 80px;
     height: auto;
 }
 

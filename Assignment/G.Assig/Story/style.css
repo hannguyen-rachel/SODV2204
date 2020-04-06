@@ -154,7 +154,7 @@ main{
     grid-gap: 15px;
     height: 75vh;
     padding: 20px;
-    margin-bottom: 20px;
+    margin:0;
 }
 
 .story-page-content{
