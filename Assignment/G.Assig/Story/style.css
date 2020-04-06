@@ -235,6 +235,11 @@ footer{
     height: 30vh;
 }
 
+.logo-squid{
+    width: 60px;
+    height: auto;
+}
+
 section{
     padding: 30px;
     margin: 0;
